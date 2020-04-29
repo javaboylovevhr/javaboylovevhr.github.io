@@ -34,75 +34,117 @@ header:
       zh-Hans : &ZH_HANS  更多教程
     url: http://www.javaboy.org
 docs-zh:
-  - title: 1. SpringMVC 简介
+  - title: 微人事项目开发文档
     children:
-      - title: SpringMVC 简介
-        url: http://springmvc.javaboy.org/2019/1101/springmvc-info
-  - title: 2. HelloWorld
-    children:
-      - title: HelloWorld
-        url: http://springmvc.javaboy.org/2019/1102/springmvc-helloworld
-  - title: 3. SpringMVC 工作流程
-    children:
-      - title: SpringMVC 工作流程
-        url: http://springmvc.javaboy.org/2019/1103/springmvc-process
-  - title: 4. SpringMVC 中的组件
-    children:
-      - title: SpringMVC 中的组件
-        url: http://springmvc.javaboy.org/2019/1104/springmvc-component
-  - title: 5. DispatcherServlet
-    children:
-      - title: DispatcherServlet
-        url: http://springmvc.javaboy.org/2019/1105/dispatcherservlet
-  - title: 6. 处理器详解
-    children:
-      - title: 处理器详解
-        url: http://springmvc.javaboy.org/2019/1106/handler
-  - title: 7. Controller
-    children:
-      - title:  7.1 @RequestMapping
-        url:    http://springmvc.javaboy.org/2019/1107/requestmapping
-      - title:  7.2 Controller 方法的返回值
-        url:    http://springmvc.javaboy.org/2019/1108/controller-return
-      - title:  7.3 参数绑定
-        url:    http://springmvc.javaboy.org/2019/1109/param
-  - title: 8. 文件上传
-    children:
-      - title: 文件上传
-        url: http://springmvc.javaboy.org/2019/1110/fileupload
-  - title: 9. 全局异常处理
-    children:
-      - title: 全局异常处理
-        url: http://springmvc.javaboy.org/2019/1111/exception
-  - title: 10. 服务端数据校验
-    children:
-      - title: 服务端数据校验
-        url: http://springmvc.javaboy.org/2019/1112/validation
-  - title: 11. 数据回显
-    children:
-      - title:  11.1 数据回显基本用法
-        url:    http://springmvc.javaboy.org/2019/1113/data-return
-      - title:  11.2 @ModelAttribute
-        url:    http://springmvc.javaboy.org/2019/1114/modelattribute
-  - title: 12. JSON 处理
-    children:
-      - title:  12.1 返回 JSON
-        url:    http://springmvc.javaboy.org/2019/1115/return-json
-      - title:  12.2 接收 JSON
-        url:    http://springmvc.javaboy.org/2019/1116/receive-json
-  - title: 13. RESTful
-    children:
-      - title: RESTful
-        url: http://springmvc.javaboy.org/2019/1117/restful
-  - title: 14. 静态资源访问
-    children:
-      - title: 静态资源访问
-        url: http://springmvc.javaboy.org/2019/1118/static-resources
-  - title: 15. 拦截器
-    children:
-      - title: 拦截器
-        url: http://springmvc.javaboy.org/2019/1119/interceptor
-  - title: 下载本文电子书
-    children:
-      - title: 下载本文电子书
-        url: http://springmvc.javaboy.org/2019/1120/download
+      - title: 01.权限数据库设计
+        url: https://javaboylovevhr.github.io/2020/0201/vhr-01
+      - title: 02.服务端环境搭建
+        url: https://javaboylovevhr.github.io/2020/0202/vhr-02
+      - title: 03.动态处理角色和资源的关系
+        url: https://javaboylovevhr.github.io/2020/0203/vhr-03
+      - title: 04.密码加密并加盐
+        url: https://javaboylovevhr.github.io/2020/0204/vhr-04
+      - title: 05.服务端异常的统一处理
+        url: https://javaboylovevhr.github.io/2020/0205/vhr-05
+      - title: 06.axios请求封装,请求异常统一处理
+        url: https://javaboylovevhr.github.io/2020/0206/vhr-06
+      - title: 07.将请求方法挂到Vue上
+        url: https://javaboylovevhr.github.io/2020/0207/vhr-07
+      - title: 08.登录状态的保存
+        url: https://javaboylovevhr.github.io/2020/0208/vhr-08
+      - title: 09.登录成功后动态加载组件
+        url: https://javaboylovevhr.github.io/2020/0209/vhr-09
+      - title: 10.角色资源关系管理
+        url: https://javaboylovevhr.github.io/2020/0210/vhr-10
+      - title: 11.用户角色关系管理
+        url: https://javaboylovevhr.github.io/2020/0211/vhr-11
+      - title: 12.部门数据库设计与存储过程编写
+        url: https://javaboylovevhr.github.io/2020/0212/vhr-12
+      - title: 123.
+        url: https://javaboylovevhr.github.io/2020/0213/vhr-13
+      - title: 13.递归查询与存储过程调用
+        url: https://javaboylovevhr.github.io/2020/0214/vhr-14
+      - title: 14.Tree树形控件使用要点
+        url: https://javaboylovevhr.github.io/2020/0215/vhr-15
+      - title: 15.职位管理和职称管理功能介绍
+        url: https://javaboylovevhr.github.io/2020/0216/vhr-16
+      - title: 16.组件复用
+        url: https://javaboylovevhr.github.io/2020/0217/vhr-17
+      - title: 17.[题外话]利用git标签回退至任意版本
+        url: https://javaboylovevhr.github.io/2020/0218/vhr-18
+      - title: 18.员工基本信息管理功能介绍
+        url: https://javaboylovevhr.github.io/2020/0219/vhr-19
+      - title: 19.SpringBoot中自定义参数绑定
+        url: https://javaboylovevhr.github.io/2020/0220/vhr-20
+      - title: 20.高级搜索功能介绍
+        url: https://javaboylovevhr.github.io/2020/0221/vhr-21
+      - title: 21.Excel导入导出效果图
+        url: https://javaboylovevhr.github.io/2020/0222/vhr-22
+      - title: 22.SpringMVC文件下载的两种方式
+        url: https://javaboylovevhr.github.io/2020/0223/vhr-23
+      - title: 23.POI生成Excel
+        url: https://javaboylovevhr.github.io/2020/0224/vhr-24
+      - title: 24.axios下载文件
+        url: https://javaboylovevhr.github.io/2020/0225/vhr-25
+      - title: 25.使用POI实现Excel导入
+        url: https://javaboylovevhr.github.io/2020/0226/vhr-26
+      - title: 26.SpringBoot中使用Freemarker邮件模板生成邮件
+        url: https://javaboylovevhr.github.io/2020/0227/vhr-27
+      - title: 27.Java中邮件的发送
+        url: https://javaboylovevhr.github.io/2020/0228/vhr-28
+      - title: 28.SpringBoot中使用新线程发送邮件
+        url: https://javaboylovevhr.github.io/2020/0310/vhr-29
+      - title: 29.工资账套管理功能介绍
+        url: https://javaboylovevhr.github.io/2020/0311/vhr-30
+      - title: 30.员工账套设置功能介绍
+        url: https://javaboylovevhr.github.io/2020/0312/vhr-31
+      - title: 31.在线聊天功能介绍
+        url: https://javaboylovevhr.github.io/2020/0313/vhr-32
+      - title: 32.在线聊天功能实现
+        url: https://javaboylovevhr.github.io/2020/0314/vhr-33
+      - title: 33.系统通知功能实现
+        url: https://javaboylovevhr.github.io/2020/0315/vhr-34
+      - title: 34.两年了，微人事重大更新
+        url: https://javaboylovevhr.github.io/2020/0316/vhr-35
+      - title: 35.微人事部署问题
+        url: https://javaboylovevhr.github.io/2020/0317/vhr-36
+      - title: 36.Spring Boot + Vue 两种文件上传方式总结
+        url: https://javaboylovevhr.github.io/2020/0318/vhr-37
+      - title: 37.Spring Boot + Vue 前端网络请求封装与配置
+        url: https://javaboylovevhr.github.io/2020/0319/vhr-38
+      - title: 38.Spring Boot + Vue 权限管理思路
+        url: https://javaboylovevhr.github.io/2020/0320/vhr-39
+      - title: 39.Spring Security 动态更新用户信息
+        url: https://javaboylovevhr.github.io/2020/0410/vhr-40
+      - title: 40.FastDFS 入门
+        url: https://javaboylovevhr.github.io/2020/0411/vhr-41
+      - title: 41.SpringBoot 结合 FastDFS
+        url: https://javaboylovevhr.github.io/2020/0412/vhr-42
+      - title: 42.Spring Boot+Vue+FastDFS 实现文件上传
+        url: https://javaboylovevhr.github.io/2020/0413/vhr-43
+      - title: 43.NodeJS 请求转发配置
+        url: https://javaboylovevhr.github.io/2020/0414/vhr-44
+      - title: 44.Spring Boot+Vue首页加载优化-1
+        url: https://javaboylovevhr.github.io/2020/0415/vhr-45
+      - title: 45.Spring Boot+Vue首页加载优化-2
+        url: https://javaboylovevhr.github.io/2020/0416/vhr-46
+      - title: 46.前后端分离中，使用 JSON 格式登录
+        url: https://javaboylovevhr.github.io/2020/0417/vhr-47
+      - title: 47.Spring Security 登录成功后获取不到用户信息？
+        url: https://javaboylovevhr.github.io/2020/0418/vhr-48
+      - title: 48.Spring Boot+Vue 如何避免前端页面 404
+        url: https://javaboylovevhr.github.io/2020/0419/vhr-49
+      - title: 49.前后端分离开发中动态菜单的两种实现方案
+        url: https://javaboylovevhr.github.io/2020/0420/vhr-50
+      - title: 50.使用 Nginx 部署前后端分离项目，解决跨域问题
+        url: https://javaboylovevhr.github.io/2020/0421/vhr-51
+      - title: 51.前后端分离以及Vue.js入门
+        url: https://javaboylovevhr.github.io/2020/0422/vhr-52
+      - title: 52.如何在微人事中提高消息中间件RabbitMQ可靠性的
+        url: https://javaboylovevhr.github.io/2020/0423/vhr-53
+      - title: 53.Spring Boot 整合 RabbitMQ，消息重复消费怎么办？
+        url: https://javaboylovevhr.github.io/2020/0424/vhr-54
+      - title: 54.简化微人事部署，Flyway 搞起来
+        url: https://javaboylovevhr.github.io/2020/0425/vhr-55
+      - title: 55.前后端分离时代，Java 程序员的变与不变！
+        url: https://javaboylovevhr.github.io/2020/0426/vhr-56
