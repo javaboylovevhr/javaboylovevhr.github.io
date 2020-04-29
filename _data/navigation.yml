@@ -1,0 +1,108 @@
+header:
+  - titles:
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+    url: /archive.html
+
+  - titles:
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+    url: /about.html
+    
+  - titles:
+      en      : &EN       more
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  更多教程
+    url: http://www.javaboy.org
+docs-zh:
+  - title: 1. SpringMVC 简介
+    children:
+      - title: SpringMVC 简介
+        url: http://springmvc.javaboy.org/2019/1101/springmvc-info
+  - title: 2. HelloWorld
+    children:
+      - title: HelloWorld
+        url: http://springmvc.javaboy.org/2019/1102/springmvc-helloworld
+  - title: 3. SpringMVC 工作流程
+    children:
+      - title: SpringMVC 工作流程
+        url: http://springmvc.javaboy.org/2019/1103/springmvc-process
+  - title: 4. SpringMVC 中的组件
+    children:
+      - title: SpringMVC 中的组件
+        url: http://springmvc.javaboy.org/2019/1104/springmvc-component
+  - title: 5. DispatcherServlet
+    children:
+      - title: DispatcherServlet
+        url: http://springmvc.javaboy.org/2019/1105/dispatcherservlet
+  - title: 6. 处理器详解
+    children:
+      - title: 处理器详解
+        url: http://springmvc.javaboy.org/2019/1106/handler
+  - title: 7. Controller
+    children:
+      - title:  7.1 @RequestMapping
+        url:    http://springmvc.javaboy.org/2019/1107/requestmapping
+      - title:  7.2 Controller 方法的返回值
+        url:    http://springmvc.javaboy.org/2019/1108/controller-return
+      - title:  7.3 参数绑定
+        url:    http://springmvc.javaboy.org/2019/1109/param
+  - title: 8. 文件上传
+    children:
+      - title: 文件上传
+        url: http://springmvc.javaboy.org/2019/1110/fileupload
+  - title: 9. 全局异常处理
+    children:
+      - title: 全局异常处理
+        url: http://springmvc.javaboy.org/2019/1111/exception
+  - title: 10. 服务端数据校验
+    children:
+      - title: 服务端数据校验
+        url: http://springmvc.javaboy.org/2019/1112/validation
+  - title: 11. 数据回显
+    children:
+      - title:  11.1 数据回显基本用法
+        url:    http://springmvc.javaboy.org/2019/1113/data-return
+      - title:  11.2 @ModelAttribute
+        url:    http://springmvc.javaboy.org/2019/1114/modelattribute
+  - title: 12. JSON 处理
+    children:
+      - title:  12.1 返回 JSON
+        url:    http://springmvc.javaboy.org/2019/1115/return-json
+      - title:  12.2 接收 JSON
+        url:    http://springmvc.javaboy.org/2019/1116/receive-json
+  - title: 13. RESTful
+    children:
+      - title: RESTful
+        url: http://springmvc.javaboy.org/2019/1117/restful
+  - title: 14. 静态资源访问
+    children:
+      - title: 静态资源访问
+        url: http://springmvc.javaboy.org/2019/1118/static-resources
+  - title: 15. 拦截器
+    children:
+      - title: 拦截器
+        url: http://springmvc.javaboy.org/2019/1119/interceptor
+  - title: 下载本文电子书
+    children:
+      - title: 下载本文电子书
+        url: http://springmvc.javaboy.org/2019/1120/download
