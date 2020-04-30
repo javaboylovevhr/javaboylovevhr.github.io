@@ -18,9 +18,9 @@
 ##############################
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : http://springboot.javaboy.org
+url     : http://vhr.javaboy.org
 baseurl : # does not include hostname
-title   : SpringMVC 教程
+title   : 微人事项目开发文档
 description: > # this means to ignore newlines until "Language & timezone"
   Spring Boot2 原创教程合集，还在不断更新中
   配套视频教程同步发布！
